@@ -1371,8 +1371,8 @@ form label {
   color: #F14E95;
 }
 .feature-left .feature-copy {
-  float: left;
-  width: 80%;
+  /* float: left;
+  width: 80%; */
 }
 
 .feature-copy h3{
@@ -1387,8 +1387,9 @@ form label {
 
 @media screen and (max-width: 768px) {
   .feature-left .feature-copy {
-    width: 70%;
-    float: left;
+    /* width: 70%;
+    float: left; */
+    text-align: center;
   }
 }
 .feature-left .feature-copy h3 {
